@@ -2,93 +2,111 @@
   "title": "Ériú - Le Voyage du Forgeron",
   "startChapter": "prologue",
   "chapters": {
-    "prologue": {
-      "text": "Tu es né(e) dans les bourrasques et les landes détrempées du nord d’Ériú, une île aux confins du monde, où les contes des anciens s’effilochent dans le vent comme les prières des druides oubliés. Tu n’es ni guerrier, ni mage, ni barde. Bien que tu aies passé des années de ta vie à les façonner, tu n’as jamais tenu une épée ni murmuré à un cheval. Tu vis d’objets réparés, de peaux tannées, de silences partagés avec les pierres. Toi, personne ordinaire, vivant de ton travail dans la vielle forge, n’as jamais quitté ton tranquille hameau. Mais un jour, durant la nuit, tout bascule. Les Sluagh, ces âmes errantes de héros morts en vain, descendent du ciel noir comme des flèches venues du néant. Ils cherchent à tuer, à posséder. Unis au maléfique Roi Gris, cet amas d’âmes ne va pas s’arrêter avant d’avoir accompli sa mission : anéantir le pays et reigner en maitre. La peur monte en toi. Tu n’a rien pour te défendre. La force physique seule, résultat de tes nombreuses heures passées à frapper le fer, ne te sera d’aucune aide face à ces créatures des abîmes. Alors que la brume sombre et les cris de terreurs envahissent de plus en plus le village, ton instinct te pousse à fuir dans la forêt. Tu cours, la terreur te donne des ailes. Le paysage défile à tout allure autour de toi mais tu n’y prête pas attention. Tu cours encore et encore jusqu’à ne plus entendre les cris de détresses des habitants. Tu ne prévoyais pas de t’arrêter de si tôt, mais, sans faire attention, tu trébuche sur une grosse pierre.",
-      "choices": [
-        {
-          "text": "Tu es essoufflé, cette malencontreuse pause est la bienvenue. Tu observes les alentours.",
-          "nextChapter": "chapitre1"
-        },
-        {
-          "text": "Tu décides de ne pas y prêter attention, de te relever et te remettre à courir.",
-          "nextChapter": "chapitre2"
-        }
-      ]
+  "prologue": {
+  "title": "Prologue",
+  "text": "Tu es né(e) dans les bourrasques et les landes détrempées du nord d’Ériú, une île aux confins du monde, où les contes des anciens s’effilochent dans le vent comme les prières des druides oubliés.\n\nTu n’es ni guerrier, ni mage, ni barde. Bien que tu aies passé des années de ta vie à les façonner, tu n’as jamais tenu une épée ni murmuré à un cheval. Tu vis d’objets réparés, de peaux tannées, de silences partagés avec les pierres. Toi, personne ordinaire, vivant de ton travail dans la vieille forge, n’as jamais quitté ton tranquille hameau.\n\nMais un jour, durant la nuit, tout bascule. Les Sluagh, ces âmes errantes de héros morts en vain, descendent du ciel noir comme des flèches venues du néant. Ils cherchent à tuer, à posséder. Unis au maléfique Roi Gris, cet amas d’âmes ne va pas s’arrêter avant d’avoir accompli sa mission : anéantir le pays et régner en maître.\n\nLa peur monte en toi. Tu n’as rien pour te défendre. La force physique seule, résultat de tes nombreuses heures passées à frapper le fer, ne te sera d’aucune aide face à ces créatures des abîmes.\n\nAlors que la brume sombre et les cris de terreur envahissent de plus en plus le village, ton instinct te pousse à fuir dans la forêt. Tu cours, la terreur te donne des ailes. Le paysage défile à toute allure autour de toi mais tu n’y prêtes pas attention. Tu cours encore et encore jusqu’à ne plus entendre les cris de détresse des habitants.\n\nTu ne prévoyais pas de t’arrêter de si tôt, mais, sans faire attention, tu trébuches sur une grosse pierre.",
+  "choices": [
+    {
+      "text": "Tu es essoufflé, cette malencontreuse pause est la bienvenue. Tu observes les alentours.",
+      "nextChapter": "chapitre1"
     },
+    {
+      "text": "Tu décides de ne pas y prêter attention, de te relever et te remettre à courir.",
+      "nextChapter": "chapitre2"
+    }
+  ]
+},
 
-    "chapitre1": {
-      "text": "Tu es essoufflé. Tes poumons brûlent, ton cœur bat trop fort, comme s’il voulait te fuir, lui aussi. En te redressant, tu sens la mousse froide sous tes doigts, le parfum âcre d’un sol ancien. Tu n’es pas seul. Autour de toi, la clairière semble posée là par une main divine. Les arbres forment un cercle parfait, et au sol, gravées dans la pierre affleurante, des runes celtiques palpitent doucement. Elles brillent d’une lumière pâle, bleu-argent, comme si l’oubli lui-même y respirait encore. Tu reconnais des symboles : la lance de Lug, la main ouverte de Dianann, le soleil de Sul, et le crâne stylisé de Branos, gardien des morts et des vérités cachées. Un lieu ancien. Très ancien. Peut-être même béni, ou oublié des hommes trop pressés pour écouter les dieux. Soudain, un souffle chaud dans ton dos. Tu te retournes d’un bond. Il est là. Un cheval. Immense. Son pelage noir absorbe la lumière. Ses yeux sont deux éclats d’orage figés. Sa crinière semble faite d’ombres mouvantes. Céannàn. Son nom te traverse l’esprit comme un souvenir qui ne t’appartient pas. Il est la monture de ceux qui marchent entre les mondes, capable de franchir les brumes, de voir ce que même les druides craignent. On dit qu’il obéit aux dieux seuls. Mais ce soir, il est venu pour toi. Il incline lentement la tête. Tu n’as pas d’arme. Tu n’as plus de foyer. Mais tu as été choisi. Et les runes brillent plus fort, comme pour saluer ton premier pas vers l’inconnu.",
-      "choices": [
-        {
-          "text": "Nerveux et intrigué, tu décides tout de même de suivre Céannàn qui semble t’attendre.",
-          "nextChapter": "chapitre3"
-        },
-        {
-          "text": "Ce cheval, grand et tempétueux, te fait peur. Tu n’as jamais approché un cheval de ta vie et ce n’est pas aujourd’hui que ça va commencer.",
-          "nextChapter": "chapitre5"
-        }
-      ]
-    },
 
-    "chapitre2": {
-      "text": "Tu te relèves sans regarder en arrière. Tu refuses d’écouter ton souffle court, la douleur dans tes jambes, les pierres sous tes pieds. Tu fuis. Encore. Plus loin. Plus vite. Le sol se dérobe parfois, mais tu ne ralentis pas. Tu cours comme si l’ombre du Roi Gris mordait tes talons. Comme si rester en place, ne serait-ce qu’un instant, revenait à mourir. Les arbres deviennent flous. Les branches griffent ton visage. Le vent siffle à tes oreilles comme une plainte ancienne. Le ciel semble t’échapper. Seule la terre battue t’ancre encore à ce monde. Puis soudain, tout s’efface. La forêt disparaît derrière un mur blanc. Une brume lourde, mouvante, s’épanche autour de toi comme une mer sans fin. Tu t’arrêtes, haletant, perdu. Tu n’as pas vu le moment exact où la lumière du monde a basculé. Tu n’entends plus ni oiseau, ni cri, ni vent. Seul ton cœur bat, égaré dans ce vide humide. Tu es dans la brume d’Anail. Tu le sais, sans comprendre comment. Cette brume n’appartient pas aux vivants. Les druides l’évoquaient à voix basse : le voile entre les mondes, là où les âmes errantes trouvent passage, où le temps s’effiloche. On dit qu’elle apparaît aux voyageurs sans chemin, à ceux que le destin arrache aux sentiers tracés. Tu avances d’un pas. La brume t’avale aussitôt, douce et glacée à la fois. Le monde d’Ériú semble déjà loin. Ton souffle s’unit à celui du voile. Tu n’as plus de repères, plus de passé. Seule la brume désormais te porte, et nul ne sait où elle mène.",
-      "choices": [
-        {
-          "text": "Tu as beau te débattre, rien n’y fait, tu restes prisonnier de cette brume. Qui sait ce qu’il va se passer après.",
-          "nextChapter": "chapitre4"
-        },
-        {
-          "text": "Épuisé, tu ne bouges pas. Tu attends, prêt à affronter ton destin.",
-          "nextChapter": "chapitre6"
-        }
-      ]
+   "chapitre1": {
+  "title": "Le Cercle oublié",
+  "text": "Tu es essoufflé. Tes poumons brûlent, ton cœur bat trop fort, comme s’il voulait te fuir, lui aussi. En te redressant, tu sens la mousse froide sous tes doigts, le parfum âcre d’un sol ancien. Tu n’es pas seul.\n\nAutour de toi, la clairière semble posée là par une main divine. Les arbres forment un cercle parfait, et au sol, gravées dans la pierre affleurante, des runes celtiques palpitent doucement. Elles brillent d’une lumière pâle, bleu-argent, comme si l’oubli lui-même y respirait encore. Tu reconnais des symboles : la lance de Lug, la main ouverte de Dianann, le soleil de Sul, et le crâne stylisé de Branos, gardien des morts et des vérités cachées. Un lieu ancien. Très ancien. Peut-être même béni, ou oublié des hommes trop pressés pour écouter les dieux.\n\nSoudain, un souffle chaud dans ton dos. Tu te retournes d’un bond. Il est là.\n\nUn cheval. Immense. Son pelage noir absorbe la lumière. Ses yeux sont deux éclats d’orage figés. Sa crinière semble faite d’ombres mouvantes. Céannàn. Son nom te traverse l’esprit comme un souvenir qui ne t’appartient pas. Il est la monture de ceux qui marchent entre les mondes, capable de franchir les brumes, de voir ce que même les druides craignent. On dit qu’il obéit aux dieux seuls.\n\nMais ce soir, il est venu pour toi. Il incline lentement la tête. Tu n’as pas d’arme. Tu n’as plus de foyer. Mais tu as été choisi. Et les runes brillent plus fort, comme pour saluer ton premier pas vers l’inconnu.",
+  "choices": [
+    {
+      "text": "Nerveux et intrigué, tu décides tout de même de suivre Céannàn qui semble t’attendre.",
+      "nextChapter": "chapitre3"
     },
+    {
+      "text": "Ce cheval, grand et tempétueux, te fait peur. Tu n’as jamais approché un cheval de ta vie et ce n’est pas aujourd’hui que ça va commencer.",
+      "nextChapter": "chapitre5"
+    }
+  ]
+},
 
-    "chapitre3": {
-      "text": "Tu hésites. Ce cheval, né d’orage et de silence, te fixe sans ciller. Ton cœur bat trop vite, mais il ne recule pas. Lentement, presque malgré toi, tu avances. Céannàn souffle doucement. Son haleine sent la pluie sur la tourbe, le fer chaud, la lande après l’orage. Il incline de nouveau la tête, et cette fois, tu poses ta main sur son encolure. Sa peau est tiède, presque humaine. Tu frissonnes, mais tu ne recules plus. Il t’invite. Et tu le suis. Vos pas s’accordent. Il ne galope pas, il marche, comme s’il respectait ton rythme hésitant. Il jette parfois un regard en arrière, comme pour t’assurer qu’il est là, qu’il te guidera. Tu n’as jamais approché un cheval, encore moins une créature pareille. Pourtant, à ses côtés, une chaleur monte en toi — une force douce, étrangère à ta vie d’avant. Le chemin devient flou. Ce n’est plus la forêt d’Ériú que tu traverses. Le monde se dissout peu à peu dans une lueur pâle, éthérée. Tu ne sais plus depuis combien de temps tu marches. Les arbres n’ont plus de racines, le sol n’a plus de poids. La réalité s’effiloche comme un fil trop tiré. Alors tu comprends. Céannàn t’a conduit là où peu osent aller. Devant toi, la brume se lève, haute et dense, vivante. Elle palpite doucement, comme un voile de chair et d’âme. Tu sens un souffle ancien t’effleurer. Le monde de Dianann. La déesse des mystères. Le seuil est là. Tu ne sais pas ce qu’il y a au-delà, mais Céannàn s’arrête et t’attend. Tu es arrivé aux portes du non-retour, tu n’as pas d’autre choix que d’entrer, Céannàn à tes côtés. Une voix murmure…",
-      "choices": [
-        {
-          "text": "Bien que tu aies peur, tu décides de suivre Céannàn et d’écouter la voix.",
-          "nextChapter": "chapitre7"
-        },
-        {
-          "text": "Pris de panique, tu tentes de t’échapper de ce monde, mais un rideau de brume te retient.",
-          "nextChapter": "chapitre8"
-        }
-      ]
-    },
 
-    "chapitre4": {
-      "text": "Tu cours encore dans ta tête, mais ton corps s’est figé. Tu te débats, tu cries sans bruit, mais la brume d’Anail n’a pas de prise pour les vivants. Elle n’enlace pas. Elle engloutit. Autour de toi, les formes changent. Tes mains se dédoublent. Tes pas résonnent sans que tu bouges. Et là — là, devant toi — tu te vois. Toi. Mais pas tout à fait. Ton visage est le tien, mais les yeux... ils sont vides. Lisses. Morts. Cette silhouette te regarde avec un calme terrifiant, et tu comprends que tu es en train de te perdre. L’illusion ne crie pas. Elle murmure. Tes propres pensées, tes propres doutes. Tu ne sais plus si tu penses ou si elle pense pour toi. Tu veux t’échapper, mais à chaque pas, un nouveau toi surgit, chaque version plus lasse, plus floue, plus étrangère. Tu es prisonnier. Non d’un lieu, mais de toi-même. La brume te tient là où tu es le plus faible : entre les regrets et les possibles. Entre ce que tu es… et ce que tu ne seras jamais. Tu tombes à genoux. Le sol est là, ou peut-être n’est-il que souvenir. Tu ne sais plus. La brume t’enlace désormais comme une mère cruelle. Tu n’as plus de souffle, plus de voix. Tu fermes les yeux. Et doucement, tu t’oublies. Ton nom s’efface. Ton passé se délite. Tes rêves, ta chaleur, ton corps même… deviennent vapeur. La brume d’Anail n’a pas de colère. Elle ne tue pas. Elle défait. Et toi, doucement, tu cesses d’être.",
-      "ending": true
+   "chapitre2": {
+  "title": "La brume d'Anail",
+  "text": "Tu te relèves sans regarder en arrière. Tu refuses d’écouter ton souffle court, la douleur dans tes jambes, les pierres sous tes pieds. Tu fuis. Encore. Plus loin. Plus vite. Le sol se dérobe parfois, mais tu ne ralentis pas. Tu cours comme si l’ombre du Roi Gris mordait tes talons. Comme si rester en place, ne serait-ce qu’un instant, revenait à mourir.\n\nLes arbres deviennent flous. Les branches griffent ton visage. Le vent siffle à tes oreilles comme une plainte ancienne. Le ciel semble t’échapper. Seule la terre battue t’ancre encore à ce monde. Puis soudain, tout s’efface.\n\nLa forêt disparaît derrière un mur blanc. Une brume lourde, mouvante, s’épanche autour de toi comme une mer sans fin. Tu t’arrêtes, haletant, perdu. Tu n’as pas vu le moment exact où la lumière du monde a basculé. Tu n’entends plus ni oiseau, ni cri, ni vent. Seul ton cœur bat, égaré dans ce vide humide.\n\nTu es dans la brume d’Anail. Tu le sais, sans comprendre comment. Cette brume n’appartient pas aux vivants. Les druides l’évoquaient à voix basse : le voile entre les mondes, là où les âmes errantes trouvent passage, où le temps s’effiloche. On dit qu’elle apparaît aux voyageurs sans chemin, à ceux que le destin arrache aux sentiers tracés.\n\nTu avances d’un pas. La brume t’avale aussitôt, douce et glacée à la fois. Le monde d’Ériú semble déjà loin. Ton souffle s’unit à celui du voile. Tu n’as plus de repères, plus de passé. Seule la brume désormais te porte, et nul ne sait où elle mène.",
+  "choices": [
+    {
+      "text": "Tu as beau te débattre, rien n’y fait, tu restes prisonnier de cette brume. Qui sait ce qu’il va se passer après.",
+      "nextChapter": "chapitre4"
     },
+    {
+      "text": "Épuisé, tu ne bouges pas. Tu attends, prêt à affronter ton destin.",
+      "nextChapter": "chapitre6"
+    }
+  ]
+}
+,
+
+   "chapitre3": {
+  "title": "Les pas de l'ombre",
+  "text": "Céannàn souffle doucement. Son haleine sent la pluie sur la tourbe, le fer chaud, la lande après l’orage. Il incline de nouveau la tête, et cette fois, tu poses ta main sur son encolure. Sa peau est tiède, presque humaine. Tu frissonnes, mais tu ne recules plus. Il t’invite. Et tu le suis.\n\nVos pas s’accordent. Il ne galope pas, il marche, comme s’il respectait ton rythme hésitant. Il jette parfois un regard en arrière, comme pour t’assurer qu’il est là, qu’il te guidera. Tu n’as jamais approché un cheval, encore moins une créature pareille. Pourtant, à ses côtés, une chaleur monte en toi — une force douce, étrangère à ta vie d’avant.\n\nLe chemin devient flou. Ce n’est plus la forêt d’Ériú que tu traverses. Le monde se dissout peu à peu dans une lueur pâle, éthérée. Tu ne sais plus depuis combien de temps tu marches. Les arbres n’ont plus de racines, le sol n’a plus de poids. La réalité s’effiloche comme un fil trop tiré. Alors tu comprends. Céannàn t’a conduit là où peu osent aller.\n\nDevant toi, la brume se lève, haute et dense, vivante. Elle palpite doucement, comme un voile de chair et d’âme. Tu sens un souffle ancien t’effleurer. Le monde de Dianann. La déesse des mystères. Le seuil est là. Tu ne sais pas ce qu’il y a au-delà, mais Céannàn s’arrête et t’attend.\n\nTu es arrivé aux portes du non-retour, tu n’as pas d’autre choix que d’entrer, Céannàn à tes côtés. Une voix murmure…",
+  "choices": [
+    {
+      "text": "Bien que tu aies peur, tu décides de suivre Céannàn et d’écouter la voix.",
+      "nextChapter": "chapitre7"
+    },
+    {
+      "text": "Pris de panique, tu tentes de t’échapper de ce monde, mais un rideau de brume te retient.",
+      "nextChapter": "chapitre8"
+    }
+  ]
+}
+,
+
+   "chapitre4": {
+  "title": "L'illusion d'Anail",
+  "text": "Tu cours encore dans ta tête, mais ton corps s’est figé. Tu te débats, tu cries sans bruit, mais la brume d’Anail n’a pas de prise pour les vivants. Elle n’enlace pas. Elle engloutit.\n\nAutour de toi, les formes changent. Tes mains se dédoublent. Tes pas résonnent sans que tu bouges. Et là — là, devant toi — tu te vois. Toi. Mais pas tout à fait. Ton visage est le tien, mais les yeux... ils sont vides. Lisses. Morts. Cette silhouette te regarde avec un calme terrifiant, et tu comprends que tu es en train de te perdre.\n\nL’illusion ne crie pas. Elle murmure. Tes propres pensées, tes propres doutes. Tu ne sais plus si tu penses ou si elle pense pour toi. Tu veux t’échapper, mais à chaque pas, un nouveau toi surgit, chaque version plus lasse, plus floue, plus étrangère.\n\nTu es prisonnier. Non d’un lieu, mais de toi-même. La brume te tient là où tu es le plus faible : entre les regrets et les possibles. Entre ce que tu es… et ce que tu ne seras jamais. Tu tombes à genoux. Le sol est là, ou peut-être n’est-il que souvenir. Tu ne sais plus. La brume t’enlace désormais comme une mère cruelle. Tu n’as plus de souffle, plus de voix. Tu fermes les yeux. Et doucement, tu t’oublies.\n\nTon nom s’efface. Ton passé se délite. Tes rêves, ta chaleur, ton corps même… deviennent vapeur. La brume d’Anail n’a pas de colère. Elle ne tue pas. Elle défait. Et toi, doucement, tu cesses d’être.",
+  "ending": true
+}
+,
 
    "chapitre5": {
-      "text": "Il est trop grand. Trop silencieux. Trop réel. Céannàn n’a rien d’un animal ordinaire. Il te scrute avec l’immobilité d’une tempête en veille. Tu sens son regard creuser en toi, là où tu caches ta peur, tes doutes, ta petitesse. Et soudain, c’est trop. Tu recules, le souffle court, les mains tremblantes. Ton instinct crie plus fort que ta raison. Sans attendre, sans te retourner, tu te lances dans la nuit. Tu cours. Tu fuis ce regard trop ancien, cette présence trop vaste. Tu n’es qu’un forgeron. Rien dans ta vie ne t’a préparé à affronter les messagers des dieux. Tu fuis. Encore. Plus loin. Plus vite. Le sol se dérobe parfois, mais tu ne ralentis pas. Tu cours comme si l’ombre du Roi Gris mordait tes talons. Comme si rester en place, ne serait-ce qu’un instant, revenait à mourir. Les arbres deviennent flous. Les branches griffent ton visage. Le vent siffle à tes oreilles comme une plainte ancienne. Le ciel semble t’échapper. Seule la terre battue t’ancre encore à ce monde. Puis soudain, tout s’efface. La forêt disparaît derrière un mur blanc. Une brume lourde, mouvante, s’épanche autour de toi comme une mer sans fin. Tu t’arrêtes, haletant, perdu. Tu n’as pas vu le moment exact où la lumière du monde a basculé. Tu n’entends plus ni oiseau, ni cri, ni vent. Seul ton cœur bat, égaré dans ce vide humide. Tu es dans la brume d’Anail. Tu le sais, sans comprendre comment. Cette brume n’appartient pas aux vivants. Les druides l’évoquaient à voix basse : le voile entre les mondes, là où les âmes errantes trouvent passage, où le temps s’effiloche. On dit qu’elle apparaît aux voyageurs sans chemin, à ceux que le destin arrache aux sentiers tracés. Tu avances d’un pas. La brume t’avale aussitôt, douce et glacée à la fois. Le monde d’Ériú semble déjà loin. Ton souffle s’unit à celui du voile. Tu n’as plus de repères, plus de passé. Seule la brume désormais te porte, et nul ne sait où elle mène.",
-      "choices": [
-        {
-          "text": "Tu as beau te débattre, rien y fais, tu reste prisonnier de cette brume. Qui sait ce qu’il va se passer après",
-          "nextChapter": "chapitre4"
-        },
-        {
-          "text": "Epuisé, tu ne bouge pas. Tu attends, prêt à affronter ton destin",
-          "nextChapter": "chapitre6"
-        }
-      ]
+  "title": "La fuite",
+  "text": "Il est trop grand. Trop silencieux. Trop réel. Céannàn n’a rien d’un animal ordinaire. Il te scrute avec l’immobilité d’une tempête en veille. Tu sens son regard creuser en toi, là où tu caches ta peur, tes doutes, ta petitesse. Et soudain, c’est trop.\n\nTu recules, le souffle court, les mains tremblantes. Ton instinct crie plus fort que ta raison. Sans attendre, sans te retourner, tu te lances dans la nuit. Tu cours. Tu fuis ce regard trop ancien, cette présence trop vaste. Tu n’es qu’un forgeron. Rien dans ta vie ne t’a préparé à affronter les messagers des dieux.\n\nTu fuis. Encore. Plus loin. Plus vite. Le sol se dérobe parfois, mais tu ne ralentis pas. Tu cours comme si l’ombre du Roi Gris mordait tes talons. Comme si rester en place, ne serait-ce qu’un instant, revenait à mourir. Les arbres deviennent flous. Les branches griffent ton visage. Le vent siffle à tes oreilles comme une plainte ancienne. Le ciel semble t’échapper. Seule la terre battue t’ancre encore à ce monde. Puis soudain, tout s’efface.\n\nLa forêt disparaît derrière un mur blanc. Une brume lourde, mouvante, s’épanche autour de toi comme une mer sans fin. Tu t’arrêtes, haletant, perdu. Tu n’as pas vu le moment exact où la lumière du monde a basculé. Tu n’entends plus ni oiseau, ni cri, ni vent. Seul ton cœur bat, égaré dans ce vide humide.\n\nTu es dans la brume d’Anail. Tu le sais, sans comprendre comment. Cette brume n’appartient pas aux vivants. Les druides l’évoquaient à voix basse : le voile entre les mondes, là où les âmes errantes trouvent passage, où le temps s’effiloche. On dit qu’elle apparaît aux voyageurs sans chemin, à ceux que le destin arrache aux sentiers tracés.\n\nTu avances d’un pas. La brume t’avale aussitôt, douce et glacée à la fois. Le monde d’Ériú semble déjà loin. Ton souffle s’unit à celui du voile. Tu n’as plus de repères, plus de passé. Seule la brume désormais te porte, et nul ne sait où elle mène.",
+  "choices": [
+    {
+      "text": "Tu as beau te débattre, rien y fais, tu reste prisonnier de cette brume. Qui sait ce qu’il va se passer après",
+      "nextChapter": "chapitre4"
     },
+    {
+      "text": "Epuisé, tu ne bouge pas. Tu attends, prêt à affronter ton destin",
+      "nextChapter": "chapitre6"
+    }
+  ]
+}
+,
 
      "chapitre6": {
-      "text": "Tu restes là, immobile, incapable d’avancer. La brume te caresse doucement, presque avec tendresse. Tu n’as plus de force pour lutter. Alors tu respires. Et lentement, quelque chose change. La peur recule, juste un peu. La brume t’entoure toujours, mais tu ne fuis plus. Tu observes. Et c’est là qu’elle t’attaque. Ton double surgit. Identique à toi. Mêmes rides, mêmes cicatrices, même regard fuyant. Il t’imite à la perfection, jusqu’au moindre battement de cil. Mais tu sens la différence. Ton double agit sans fatigue. Il ne tremble pas. Il ne doute pas. C’est cela qui le trahit. Il est vide. Une ombre sans douleur, sans faille. Tu fais un pas vers lui, vacillant. Il ne bouge pas. Alors tu fais ce que la brume n’attend pas : tu fermes les yeux. Tu refuses le mirage. Tu n’as pas besoin de preuves. Tu acceptes le doute, l’épuisement, la peur. Et c’est ça, peut-être, ta seule force. Quand tu ouvres de nouveau les yeux, ton double a disparu. La brume se fissure. Une fente dans le voile. Une sortie. Tu t’y glisses, haletant, le cœur battant à s’en briser. Et tu retombes dans le monde, ou du moins dans ce qu’il en reste. Mais rien n’est pareil. Les arbres sont flous, les couleurs trop nettes. La lumière te blesse. Tu es dehors. Mais en toi, la brume ne s’est pas dissipée. Tu doutes de tout, désormais. Même de toi. A suivre …",
+            "title": "La faille",
+
+      "text": "Tu restes là, immobile, incapable d’avancer. La brume te caresse doucement, presque avec tendresse. Tu n’as plus de force pour lutter. Alors tu respires. Et lentement, quelque chose change. \n\nLa peur recule, juste un peu. La brume t’entoure toujours, mais tu ne fuis plus. Tu observes. Et c’est là qu’elle t’attaque. Ton double surgit. Identique à toi. Mêmes rides, mêmes cicatrices, même regard fuyant. Il t’imite à la perfection, jusqu’au moindre battement de cil. \n\nMais tu sens la différence. Ton double agit sans fatigue. Il ne tremble pas. Il ne doute pas. C’est cela qui le trahit. Il est vide. Une ombre sans douleur, sans faille. \n\nTu fais un pas vers lui, vacillant. Il ne bouge pas. \n\nAlors tu fais ce que la brume n’attend pas : tu fermes les yeux. Tu refuses le mirage. Tu n’as pas besoin de preuves. Tu acceptes le doute, l’épuisement, la peur. Et c’est ça, peut-être, ta seule force. \n\nQuand tu ouvres de nouveau les yeux, ton double a disparu. La brume se fissure. Une fente dans le voile. Une sortie. \n\nTu t’y glisses, haletant, le cœur battant à s’en briser. Et tu retombes dans le monde, ou du moins dans ce qu’il en reste. Mais rien n’est pareil. Les arbres sont flous, les couleurs trop nettes. La lumière te blesse. Tu es dehors. Mais en toi, la brume ne s’est pas dissipée. \n\nTu doutes de tout, désormais. Même de toi. \n\nA suivre …",
       "ending": true
     },
 
     "chapitre7": {
-      "text": "Tu franchis le seuil. La brume se referme derrière toi comme une marée silencieuse. Le monde n’a plus de contours. Tout pulse, comme si tu marchais dans le souffle d’un rêve ancien. Céannàn avance à tes côtés, paisible, presque irréel. Sa présence t’ancre. Tu avances. Alors, elle apparaît. Dianann. Pas sous une forme fixe. Son visage change, fluide : femme, enfant, vieille, ombre, lumière. Elle est toutes les formes de la connaissance et de l’oubli. Sa voix résonne dans ta tête sans passer par tes oreilles : « Pour franchir les voiles, il faut répondre. Car nul ne passe sans se nommer. » Devant toi, une stèle se dresse. Dessus, gravée dans la pierre brumeuse, une énigme : « Je suis à la fois sans bouche et sans voix, Mais j’ouvre les portes et guide les pas. Je suis invisible, et pourtant je pèse. Sans moi, nul ne sait, nul ne pèse. Qui suis-je ? » Tu regardes Céannàn. Il te fixe, tranquille, et tape doucement le sol du sabot. Une fois. Puis deux. Puis trois. Une série. Un rythme. Et soudain, un mot t’effleure l’esprit. Pensée. Tu lèves les yeux. Dianann sourit. À peine. Tu as répondu juste. La brume tremble. Un passage s’ouvre. Et Céannàn te frôle. Il est fier. Toi aussi, un peu. A suivre …",
+            "title": "Le voile et la voix",
+
+      "text": "Tu franchis le seuil. \n\nLa brume se referme derrière toi comme une marée silencieuse. Le monde n’a plus de contours. Tout pulse, comme si tu marchais dans le souffle d’un rêve ancien. Céannàn avance à tes côtés, paisible, presque irréel. Sa présence t’ancre. Tu avances. \n\nAlors, elle apparaît. \n\nDianann. \n\nPas sous une forme fixe. Son visage change, fluide : femme, enfant, vieille, ombre, lumière. Elle est toutes les formes de la connaissance et de l’oubli. Sa voix résonne dans ta tête sans passer par tes oreilles : \n\n« Pour franchir les voiles, il faut répondre. Car nul ne passe sans se nommer. » \n\nDevant toi, une stèle se dresse. Dessus, gravée dans la pierre brumeuse, une énigme : \n\n« Je suis à la fois sans bouche et sans voix, Mais j’ouvre les portes et guide les pas. Je suis invisible, et pourtant je pèse. Sans moi, nul ne sait, nul ne pèse. Qui suis-je ? » \n\nTu regardes Céannàn. Il te fixe, tranquille, et tape doucement le sol du sabot. Une fois. Puis deux. Puis trois. Une série. Un rythme. Et soudain, un mot t’effleure l’esprit. \n\nPensée. \n\nTu lèves les yeux. Dianann sourit. À peine. Tu as répondu juste. La brume tremble. \n\nUn passage s’ouvre. Et Céannàn te frôle. Il est fier. Toi aussi, un peu. A suivre …",
       "ending": true
     },
 
     "chapitre8": {
-      "text": "Tu tournes les talons. La peur est plus forte que la curiosité. Ton cœur bat trop vite. Tu recules. Mais la brume de Dianann n’a pas d’issue pour ceux qui refusent. Elle s’élève comme un mur vivant, t’enserre sans brutalité, mais avec une force d’évidence. Tu es capturé. Et Céannàn… Céannàn disparaît dans un souffle. Un cri dans ta poitrine. Tu es seul. Et puis elle vient. Dianann. Cette fois, son visage est figé, froid. Ses yeux sont deux miroirs opaques où tu ne vois rien de toi. « Tu veux fuir ce qui ne te comprend pas encore, » dit-elle. « Alors comprends. » La stèle surgit. Nue. L’énigme s’impose, gravée comme un jugement : « Je vis dans l’éclair et meurs dans l’attente. Je suis souffle, feu, mais jamais constante. Je porte les mots sans jamais parler. Sans moi, l’acte n’est qu’idée. Qui suis-je ? » Tu restes figé. Aucun regard à croiser. Aucun sabot frappant le sol. Céannàn est loin, peut-être perdu. Tu n’as que toi. Tu répètes l’énigme. Tu ressens le vide laissé par la fuite. Et un mot te hante : Volonté. Peut-être... ou Intention ? Tu tentes une réponse. La brume ne réagit pas. Le silence, total, fait plier tes genoux. Le monde vacille. La leçon est douloureuse. La déesse s’éloigne, sans un mot. Le voile reste fermé. Tu as échoué, et l’épreuve recommencera... jusqu’à ce que tu sois prêt. A suivre …",
+            "title": "Le jugement de la brume",
+
+      "text": "Tu tournes les talons. La peur est plus forte que la curiosité. Ton cœur bat trop vite. Tu recules. Mais la brume de Dianann n’a pas d’issue pour ceux qui refusent. \n\nElle s’élève comme un mur vivant, t’enserre sans brutalité, mais avec une force d’évidence. Tu es capturé. Et Céannàn… Céannàn disparaît dans un souffle. Un cri dans ta poitrine. Tu es seul. \n\nEt puis elle vient. \n\nDianann. \n\nCette fois, son visage est figé, froid. Ses yeux sont deux miroirs opaques où tu ne vois rien de toi. \n\n« Tu veux fuir ce qui ne te comprend pas encore, » dit-elle. « Alors comprends. » \n\nLa stèle surgit. Nue. L’énigme s’impose, gravée comme un jugement : \n\n« Je vis dans l’éclair et meurs dans l’attente. Je suis souffle, feu, mais jamais constante. Je porte les mots sans jamais parler. Sans moi, l’acte n’est qu’idée. Qui suis-je ? » \n\nTu restes figé. \n\nAucun regard à croiser. Aucun sabot frappant le sol. Céannàn est loin, peut-être perdu. Tu n’as que toi. \n\nTu répètes l’énigme. Tu ressens le vide laissé par la fuite. \n\nEt un mot te hante : Volonté. Peut-être... ou Intention ? \n\nTu tentes une réponse. La brume ne réagit pas. Le silence, total, fait plier tes genoux. Le monde vacille. La leçon est douloureuse. \n\nLa déesse s’éloigne, sans un mot. Le voile reste fermé. Tu as échoué, et l’épreuve recommencera... jusqu’à ce que tu sois prêt. \n\nA suivre …",
       "ending": true
     }
 

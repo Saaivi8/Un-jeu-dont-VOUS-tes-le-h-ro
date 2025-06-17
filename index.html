@@ -182,19 +182,27 @@
         if (!chapter) return;
 
         const section = document.querySelector("main section");
+
+        // Mise en forme du texte en paragraphes
+        const formattedText = chapter.text
+          .split(/\n\s*\n/) // coupe sur paragraphes (double saut de ligne si présent)
+          .map((paragraph) => `<p>${paragraph.trim()}</p>`)
+          .join("");
+
+        // Affichage du contenu HTML
         section.innerHTML = `
-      <h2>${story.title}</h2>
-      <p>${chapter.text}</p>
+      <h2><strong>${chapter.title || story.title}</strong></h2>
+      ${formattedText}
       <div class="actions">
         ${
           chapter.choices
             ? chapter.choices
                 .map(
                   (choice) => `
-                    <button onclick="goToChapter('${choice.nextChapter}')">
-                      ${choice.text}
-                    </button>
-                  `
+              <button onclick="goToChapter('${choice.nextChapter}')">
+                ${choice.text}
+              </button>
+            `
                 )
                 .join("")
             : ""
