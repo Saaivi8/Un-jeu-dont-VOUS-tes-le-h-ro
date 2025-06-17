@@ -48,8 +48,7 @@
 
       main {
         flex: 1;
-        background: url("https://picsum.photos/1600/900") no-repeat center
-          center / cover;
+        background: no-repeat center center / cover;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -133,10 +132,7 @@
   <body>
     <header>
       <a href="/">
-        <img
-          src="https://via.placeholder.com/100x40?text=Logo"
-          alt="Logo de l'entreprise"
-        />
+        <img src="./media/img/avh.png" alt="Logo de l'entreprise" />
       </a>
       <nav>
         <a href="#accueil">Accueil</a>
@@ -158,6 +154,9 @@
         </div>
       </section>
     </main>
+    <audio id="chapter-audio" autoplay loop>
+      <source src="" type="audio/mpeg" />
+    </audio>
 
     <footer></footer>
 
@@ -182,38 +181,58 @@
         if (!chapter) return;
 
         const section = document.querySelector("main section");
+        const main = document.querySelector("main");
+        const audio = document.getElementById("chapter-audio");
 
-        // Mise en forme du texte en paragraphes
+        // ✅ Mettre à jour le fond d'écran
+        if (chapter.backgroundImage) {
+          main.style.backgroundImage = `url('${chapter.backgroundImage}')`;
+          main.style.backgroundSize = "cover";
+          main.style.backgroundPosition = "center";
+        } else {
+          main.style.backgroundImage = "none";
+        }
+
+        // ✅ Mettre à jour la musique
+        if (chapter.music) {
+          audio.src = chapter.music;
+          audio.play().catch((e) => {
+            console.warn("Erreur de lecture audio :", e);
+          });
+        } else {
+          audio.pause();
+          audio.src = "";
+        }
+
+        // 📝 Affichage du texte et des choix (inchangé)
         const formattedText = chapter.text
-          .split(/\n\s*\n/) // coupe sur paragraphes (double saut de ligne si présent)
-          .map((paragraph) => `<p>${paragraph.trim()}</p>`)
+          .split(/\n\s*\n/)
+          .map((p) => `<p>${p.trim()}</p>`)
           .join("");
 
-        // Affichage du contenu HTML
         section.innerHTML = `
-      <h2><strong>${chapter.title || story.title}</strong></h2>
-      ${formattedText}
-      <div class="actions">
-        ${
-          chapter.choices
-            ? chapter.choices
-                .map(
-                  (choice) => `
+    <h2><strong>${chapter.title || story.title}</strong></h2>
+    ${formattedText}
+    <div class="actions">
+      ${
+        chapter.choices
+          ? chapter.choices
+              .map(
+                (choice) => `
               <button onclick="goToChapter('${choice.nextChapter}')">
                 ${choice.text}
-              </button>
-            `
-                )
-                .join("")
-            : ""
-        }
-        ${
-          chapter.ending
-            ? `<button onclick="restartStory()">↺ Recommencer</button>`
-            : ""
-        }
-      </div>
-    `;
+              </button>`
+              )
+              .join("")
+          : ""
+      }
+      ${
+        chapter.ending
+          ? `<button onclick="restartStory()">↺ Recommencer</button>`
+          : ""
+      }
+    </div>
+  `;
       }
 
       function goToChapter(chapterId) {
