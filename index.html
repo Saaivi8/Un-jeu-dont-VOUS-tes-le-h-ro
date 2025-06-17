@@ -160,5 +160,65 @@
     </main>
 
     <footer></footer>
+
+    <!-- SCRIPT -->
+    <script>
+      let story = {};
+      let currentChapter = "";
+
+      async function loadStory() {
+        try {
+          const response = await fetch("story.json");
+          story = await response.json();
+          currentChapter = story.startChapter;
+          renderChapter();
+        } catch (error) {
+          console.error("Erreur de chargement de l'histoire :", error);
+        }
+      }
+
+      function renderChapter() {
+        const chapter = story.chapters[currentChapter];
+        if (!chapter) return;
+
+        const section = document.querySelector("main section");
+        section.innerHTML = `
+      <h2>${story.title}</h2>
+      <p>${chapter.text}</p>
+      <div class="actions">
+        ${
+          chapter.choices
+            ? chapter.choices
+                .map(
+                  (choice) => `
+                    <button onclick="goToChapter('${choice.nextChapter}')">
+                      ${choice.text}
+                    </button>
+                  `
+                )
+                .join("")
+            : ""
+        }
+        ${
+          chapter.ending
+            ? `<button onclick="restartStory()">↺ Recommencer</button>`
+            : ""
+        }
+      </div>
+    `;
+      }
+
+      function goToChapter(chapterId) {
+        currentChapter = chapterId;
+        renderChapter();
+      }
+
+      function restartStory() {
+        currentChapter = story.startChapter;
+        renderChapter();
+      }
+
+      window.onload = loadStory;
+    </script>
   </body>
 </html>
